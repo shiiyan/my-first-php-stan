@@ -12,5 +12,10 @@
             "email": "yan39123@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "phpstan:analyse" : "vendor/bin/phpstan analyse src"
+    }
 }
