@@ -3,4 +3,4 @@ parameters:
     paths:
         - src
 rules:
-    - Shiiyan\MyFirstPhpStan\MyRule
+    - Shiiyan\MyFirstPhpStan\InstantiatePersonInFactoryRule
