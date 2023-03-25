@@ -11,4 +11,10 @@ class Foo
         $p = new Person("foo@example.com");
         $p->email = "foo2@exmaple.com";
     }
+
+    public function init(): void
+    {
+        $Model1 = ClassRegistry::init(ClassRegistryPath::MY_CLASS);
+        $Model2 = ClassRegistry::init('aaa');
+    }
 }

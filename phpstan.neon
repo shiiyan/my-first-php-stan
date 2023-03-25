@@ -5,3 +5,4 @@ parameters:
 rules:
     - Shiiyan\MyFirstPhpStan\InstantiatePersonInFactoryRule
     - Shiiyan\MyFirstPhpStan\AssignPropertiesInsideConstructorRule
+    - Shiiyan\MyFirstPhpStan\ClassRegistryInitWithEnumRule
