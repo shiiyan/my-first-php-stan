@@ -4,3 +4,4 @@ parameters:
         - src
 rules:
     - Shiiyan\MyFirstPhpStan\InstantiatePersonInFactoryRule
+    - Shiiyan\MyFirstPhpStan\AssignPropertiesInsideConstructorRule

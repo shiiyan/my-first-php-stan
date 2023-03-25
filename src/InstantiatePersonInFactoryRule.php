@@ -6,12 +6,13 @@ namespace Shiiyan\MyFirstPhpStan;
 
 use PhpParser\Node;
 use PHPStan\Analyser\Scope;
+use PHPStan\Rules\Rule;
 use PHPStan\Rules\RuleErrorBuilder;
 
 /**
- * @implements \PHPStan\Rules\Rule<Node\Expr\New_>
+ * @implements Rule<Node\Expr\New_>
  */
-class InstantiatePersonInFactoryRule implements \PHPStan\Rules\Rule
+class InstantiatePersonInFactoryRule implements Rule
 {
     public function getNodeType(): string
     {
